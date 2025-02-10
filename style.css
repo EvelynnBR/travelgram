@@ -4,3 +4,49 @@
     --text-p: #6C6C6C;
     font-family: "Poppins", serif;
 }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*logo + nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 32px;
+}
+section.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.logo h1{
+    color: var(--text-travelgram);
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* nav */
+section.menu{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.menu p{
+    color: var(--text-p);
+    font-size: 16px;
+}
+.lupa{
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+}
