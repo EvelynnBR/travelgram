@@ -2,6 +2,7 @@
     --text-travelgram: #EF5F4C;
     --text-h1: #313131;
     --text-p: #6C6C6C;
+    --bg: #F5F5F5;
     font-family: "Poppins", serif;
 }
 body{
@@ -15,11 +16,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 32px;
+    background-color: var(--bg);
 }
 section.logo{
     display: flex;
     align-items: center;
+    margin: 24px 32px;
 }
 .logo img{
     width: 40px;
@@ -36,6 +38,7 @@ section.menu{
     display: flex;
     align-items: center;
     gap: 16px;
+    margin: 24px 32px;
 }
 .menu p{
     color: var(--text-p);
@@ -49,4 +52,89 @@ section.menu{
 .profile{
     width: 40px;
     height: 40px;
+}
+
+/*header + perfil + info*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg);
+}
+.about{
+    display: flex;
+    align-items: center;
+    margin: 32px 0 32px 32px;
+}
+.about img{
+    width: 176px;
+    height: 176px;
+}
+.text{
+    width: 380px;
+    margin-left: 32px;
+}
+.text h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text-h1);
+    margin-bottom: 8px;
+}
+.text p{
+    font-size: 14px;
+    color: var(--text-p);
+}
+
+/* info */
+.info{
+    display: block;
+    margin: 68px 32px;
+}
+.local{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+.local img{
+    width: 24px;
+    height: 24px;
+}
+.local p{
+    margin-left: 8px;
+    font-size: 14px;
+    color: var(--text-p);
+}
+
+.countries{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+.countries img{
+    width: 24px;
+    height: 24px;
+}
+.countries p{
+    margin-left: 8px;
+    font-size: 14px;
+    color: var(--text-p)
+}
+.photos{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 24px;
+}
+.photos img{
+    width: 24px;
+    height: 24px;
+}
+.photos p{
+    margin-left: 8px;
+    font-size: 14px;
+    color: var(--text-p)
 }
