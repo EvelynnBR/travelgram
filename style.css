@@ -153,3 +153,24 @@ main{
     width: 286px;
     height: 286px;
 }
+
+/*footer*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p{
+    margin: 25px 32px;
+    font-size: 14px;
+    color: var(--text-p);
+}
+footer {
+    margin: 25px 32px;
+}
+.link{
+    margin-right: 25px;
+    font-size: 14px;
+    color: var(--text-p);
+}
