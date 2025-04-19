@@ -1,0 +1,13 @@
+:root{
+    --text-travelgram: #EF5F4C;
+    --text-h1: #313131;
+    --text-p: #6C6C6C;
+    --bg: #F5F5F5;
+    font-family: "Poppins", serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
