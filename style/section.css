@@ -1,6 +1,5 @@
 nav{
     padding-block: var(--py-lg);
-    background-color: var(--surface-color);
 
     & .menu{
         --a-hover: var(--brand-color);
