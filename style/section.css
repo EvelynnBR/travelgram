@@ -93,9 +93,14 @@ footer{
         flex-direction: column;
         padding-block: 1rem;
         text-align: center;
+        text-align: center;
 
         & p{
             margin-bottom: 1rem;
+        }
+
+        & .link + .link{
+            margin: 1rem;
         }
     }
 }
