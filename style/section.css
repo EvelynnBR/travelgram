@@ -71,7 +71,6 @@ header{
 
                 & a:hover{
                     color: var(--a-hover);
-                    font-size: 1rem;
                 }
             }
         }
@@ -101,7 +100,6 @@ footer{
         }
     }
 }
-
 @media (width >= 80em){
     footer{
         & div{
