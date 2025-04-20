@@ -22,7 +22,11 @@ nav{
 }
 
 header{
-    margin-block: 2rem;
+    padding-block: 2rem;
+
+    & .about{
+        align-items: center;
+    }
 
     & .container{
         --px-lg: 2rem;
