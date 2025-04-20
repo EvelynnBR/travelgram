@@ -1,0 +1,59 @@
+.container{
+    --max-width: 375px;
+    width: min( var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
+}
+
+@media (width >= 80em){
+    .container{
+        --max-width: 80em;
+    }
+}
+
+h1{
+    font: var(--h1);
+    color: var(--text-color-primary);
+}
+
+p{
+    color: var(--text-color-secondary);
+}
+
+a{
+    color: var(--text-color-secondary);
+    text-decoration: none;
+}
+
+.p-md{
+    font: var(--paragraph-dm);
+}
+
+.p-sm{
+    font: var(--paragraph-sm);
+}
+
+.grid{
+    display: grid;
+}
+
+.flex{
+    display: flex;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.gap-1.\5{
+    gap: 1.5rem;
+}
+
+
+.desktop-only{
+    display: none;
+}
+@media (width >= 80em){
+    .desktop-only{
+        display: initial;
+    }
+}
