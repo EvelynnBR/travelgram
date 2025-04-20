@@ -22,7 +22,7 @@ nav{
 }
 
 header{
-    padding-top: 2rem;
+    margin-block: 2rem;
 
     & .container{
         --px-lg: 2rem;
@@ -71,5 +71,17 @@ header{
                 }
             }
         }
+    }
+}
+
+#photos{
+    margin-block: 1.5rem;
+    background-color: var(--shelenton-color);
+}
+@media (width >= 80em){
+
+    & .gallery{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
     }
 }
