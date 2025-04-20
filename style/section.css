@@ -107,6 +107,8 @@ footer{
 @media (width >= 80em){
     footer{
         & div{
+            --a-hover: var(--brand-color);
+
             flex-direction: row;
             align-items: center;
             & p{
@@ -114,6 +116,14 @@ footer{
             }
             & .links{
                 margin-left: auto;
+            }
+
+            & .link + .link{
+                margin: 1.25rem;
+            }
+
+            & a:hover{
+                color: var(--a-hover);
             }
         }
     }
