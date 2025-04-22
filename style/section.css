@@ -22,6 +22,7 @@ nav{
 
 header{
     padding-block: 2rem;
+    background-color: var(--surface-color);
 
     & .about{
         align-items: center;
