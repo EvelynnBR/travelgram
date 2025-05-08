@@ -8,7 +8,7 @@
 <br>
 
 <p>
-  <img alt="Zingen" src="github/travelgram.jpg" width="100%">
+  <img alt="Travelgram" src="github/travelgram.jpg" width="100%">
 </p>
 
 ## 💻 Projeto
