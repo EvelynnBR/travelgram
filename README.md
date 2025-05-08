@@ -13,7 +13,7 @@
 
 ## 💻 Projeto
 
-Nesse projeto desenvolvir uma rede social para fotos de viagem.
+Nesse projeto desenvolvi uma rede social para fotos de viagem.
 - Veja o projeto: <a href="https://evelynnbr.github.io/travelgram/"> Travelgram</a>
 
 ## 🚀 Tecnologias
